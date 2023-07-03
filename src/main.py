@@ -1,3 +1,7 @@
 from datasets import load_dataset
 
-dataset = load_dataset("Zellic/smart-contract-fiesta")
+def main():
+    dataset = load_dataset("Zellic/smart-contract-fiesta")
+
+if __name__ == "__main__":
+    main()
